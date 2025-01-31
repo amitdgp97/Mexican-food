@@ -1,0 +1,1086 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: inline-block;
+    padding: 24px 91px;
+    border-radius: 41px;
+    background-color: #4a1831;
+    color: #e7be9c;
+    border: 1px solid #333;
+    font-size: 26px;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: #e7be9c;
+    color: #4a1831;
+    transition: .3s ease;
+}
+/* ---------------------------header and nav----------------------------- */
+.header-section {
+    background-color: #4a1831;
+}
+
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 34px 62px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #e7be9c;
+
+}
+
+/* ---------------------------------------header and nav ends---------------------------------- */
+/* -------------------------------------------banner section----------------------------------- */
+.banner-section {
+    background-image: url(../image/227784-P1PRTC-941.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 810px;
+    padding: 48px 0 94px 0;
+}
+
+.banner-section-child img {
+    height: 152px;
+    width: 145px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.banner-section-child h1 {
+    padding-bottom: 81px;
+    color: #e7be9c;
+    font-size: 124px;
+    
+}
+
+.banner-section-child p {
+    color: #e7be9c;
+    width: 60%;
+    padding-bottom: 50px;
+    font-size: 29px;
+
+}
+.active{
+    background-color: #e7be9c;
+    color: #4a1831;
+    border: 3px solid #e7be9c ;
+}
+.active:hover{
+    background-color:#4a1831;
+    color: #e7be9c;
+     transition: .3s ease;
+}
+
+/* -------------------------------------------banner section ends----------------------------------- */
+/* ----------------------------------------banner-section-one----------------------- */
+.banner-section-one{
+    background-color: #e7be9c;
+    text-align: center;
+    padding: 105px 0;
+}
+.banner-section-one h2{
+    padding-bottom: 51px;
+    font-size: 63px;
+}
+.banner-section-one p{
+    font-size: 25px;
+    padding: 0 0 25px 0;
+    width: 100%;
+ 
+}
+/* ----------------------------------------banner-section-one-ends----------------------- */
+/* ------------------------------------------cover section---------------------------------- */
+.cover-section{
+    background-image: url(../image/coverpic.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 350px;
+    width: 100%;
+}
+/* ------------------------------------------cover section ends---------------------------------- */
+/* -------------------------------------------about section--------------------------------------- */
+.about-section{
+    background-color: #e7be9c;
+    padding: 125px 0 20px 0;
+    width: 100%;
+    position: relative;
+}
+.about-section-child{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+/* --------------------------------------------about logo section--------------------------------- */
+.logo-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* --------------------------------------------about logo section ends--------------------------------- */
+/* --------------------------------------------about info section--------------------------------------- */
+.about-info-section{
+    padding-left:60px;
+}
+.about-info-section h3{
+font-size: 65px;
+color: #4a1831;
+padding-bottom: 63px;
+}
+.about-info-section p{
+    font-size: 29px;
+    color: #4a1831;
+    padding-bottom: 26px;
+    }
+
+/* --------------------------------------------about info section ends--------------------------------------- */
+/* -------------------------------------------about section ends--------------------------------------- */
+/* ------------------------------------------discount section------------------------------------------- */
+.discount-section{
+    background-color: #e7be9c;
+    padding: 49px 0 0 0;
+}
+
+.discount-section-child{
+    display: flex;
+    /* flex-wrap: wrap;  */
+}
+
+.discount-text-section{
+    position: absolute;
+    /* z-index: 10; */
+}
+.discount-text-section h3{
+font-size: 167px;
+color: #e63956;
+font-weight: 900;
+transform: translate(-4px, 39px);
+}
+.discount-text-section h4{
+    font-size: 64px;
+    color:#55112e;
+    font-weight: 900;
+}
+.discount-text-section h5{
+font-size: 104px;
+color: #6cc5ac;
+font-weight: 900;
+transform: translate(-7px, -24px);
+}
+.discount-logo-section figure img{
+    padding-left: 220px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* ------------------------------------------discount section ends------------------------------------------- */
+/*--------------------------------------offer section-------------------------------------------------  */
+.offer-section{
+    background-color: #4a1831;
+    padding: 126px 0px 126px 0px;
+}
+/* -------------------------------------------offer section  child----------------------------------------- */
+.offer-section-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ------------------------------------------left ---------------------------------------------------------------- */
+.left h3{
+    color: #e7be9c;
+    font-size: 75px;
+    padding-bottom: 60px;
+}
+.left p{
+    color: #e7be9c;
+    font-size: 29px;
+    padding-bottom: 60px;
+    width: 90%;
+}
+
+/* ------------------------------------------left ends ---------------------------------------------------------------- */
+/* -------------------------------------------offer section child ends----------------------------------------- */
+/*--------------------------------------offer section ends-------------------------------------------------  */
+/* -------------------------------------------cover section one---------------------------------------------- */
+.cover-section-one{
+    background-image: url(../image/coverpicone.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: rgba(9, 4, 9, 0.858);
+    background-blend-mode:darken;
+    text-align: center;
+    padding: 106px 0px 129px 0px;
+    position: relative;
+}
+.cover-section-one img{
+    height: 20%;
+    width: 20%;
+    object-fit: cover;
+    padding-bottom: 81px;
+}
+.cover-section-one h3{
+   color: #e7be9c;
+   font-size: 41px;
+   padding-bottom: 80px;
+}
+.cover-section-one p{
+    color: #e7be9c;
+    font-size: 44px;
+    font-weight: 700;
+ }
+/* -------------------------------------------cover section one ends---------------------------------------------- */
+/* --------------------------------------------offer section one------------------------------------------------- */
+.offer-section-one{
+    background-color:#e7be9c;
+    text-align: center;
+    padding: 226px 0px 226px 0px;
+}
+.offer-section-one h3{
+    font-size: 75px;
+    padding-bottom: 60px;
+    color: #55112e;
+}
+.offer-section-one p{
+    font-size: 30px;
+    padding-bottom: 67px;
+    color: #55112e;
+}
+#box{
+    padding: 32px 650px 32px 0;
+    border-radius: 41px;
+    border: none;
+}
+#box::placeholder{
+    font-size: 25px;
+    text-align:center;   
+}
+.one{
+    position: absolute;
+    transform: translate(-300px,0px);
+ }
+/* ------------------------------------offer section one ends------------------------------------------------- */
+/* ----------------------------------footer-section------------------------------------------------- */
+.footer-section{
+    background-color:#4a1831;
+     color:#e7be9c;
+     padding: 200px 0px;
+}
+.footer-section-child{
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------------------------------------------footer one------------------------ */
+.footer-one{
+    width: 35%;
+}
+.footer-one p{
+    font-size:31px ;
+    padding-bottom:35px;
+}
+#para{
+    font-size: 23px;
+}
+.footer-one a i{
+    color: #e7be9c;
+    margin-right: 20px;
+    font-size: 31px;
+    border-radius: 50%;
+}
+.footer-one a i:hover{
+    background-color: #e7be9c;
+    color: #4a1831;
+}
+/* -----------------------------------------------footer one end-------------------------------------------- */
+
+/* -------------------------------------------------------------footer two-------------------------------- */
+.footer-two p{
+font-size: 31px;
+padding-bottom: 35px;
+}
+.footer-two li{
+    list-style: none;
+    padding:5px 0;
+    color: #e7be9c;
+    font-size: 23px;
+}
+.footer-two li a{
+    text-decoration: none;
+    color: #e7be9c;
+}
+/* ----------------------------------------------footer two ends----------------------------------------- */
+/* ----------------------------------footer-section ends------------------------------------------------- */
+
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+/* media query starts================================================================================ */
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    /* ------------------------banner section ----------------- */
+    .banner-section-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-section-child p{
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    .banner-section-child img{
+        height: 20%;
+        width: 20%;
+        object-fit: cover;
+        
+    }
+    .banner-section-child h1 {
+        font-size: 50px;
+        padding-bottom: 30px;
+   
+    }
+    .banner-section{
+        height: 400px;
+    }
+    .banner-section .button{
+        padding: 6px 30px;
+        font-size: 10px;
+        font-weight: 500;
+    
+    }
+/* ------------------------banner section ends----------------- */
+/* ------------------banner-section-one--- */
+.banner-section-one{
+    padding: 40px 0;
+}
+.banner-section-one h2{
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.banner-section-one p{
+    font-size: 12px;
+    padding: 0 0 10px 0;
+}
+/* ---------banner-section-one ends--- */
+/* ------------cover-section--------------- */
+.cover-section{
+    height: 100px;
+}
+/* ------------cover-section ends--------------- */
+/* --------about-section---------- */
+.about-section{
+    padding: 50px 0 50px 0;
+}
+.about-section-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about-section{
+    text-align: center;
+    width: 100%;
+}
+.logo-section img{
+    height: 60%;
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: center;
+   
+}
+.about-info-section{
+    padding: 0 0;
+}
+.about-info-section h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about-info-section p{
+    font-size: 16px;
+    text-align: center;
+}
+.button{
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 300;
+}
+/* --------about-section ends---------- */
+/* ------------offer section------- */
+.offer-section-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.right img{
+    height: 40%;
+    width: 40%;
+ }
+ .left h3{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.left p{
+    font-size: 10px;
+    padding-bottom:20px;
+    width: 100%;
+}
+.left .active{
+    padding: 8px 25px;
+    font-size: 8px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.offer-section{
+    padding: 40px 0px 30px 0px;
+}
+/* --------offer section ends---- */
+/* --------cover section one------- */
+.cover-section-one{
+    padding: 40px 0px 40px 0px;
+
+}
+.cover-section-one img{
+    height: 13%;
+    width: 13%;
+    padding-bottom: 30px;
+}
+.cover-section-one h3{
+   font-size: 12px;
+   padding-bottom: 20px;
+}
+.cover-section-one p{
+    font-size: 15px;
+    font-weight: 500;
+ }
+ /* --------cover section one ends------- */
+ /* ---------offer-section-one------ */
+.offer-section-one{
+    padding: 50px 0px;
+}
+.offer-section-one h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.offer-section-one p{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+#box{
+    padding: 15px 130px 15px 0;
+}
+#box::placeholder{
+    font-size: 10px;  
+}
+.offer-section-one .button {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight:600;
+    transform: translate(-110px,0px);
+}
+ /* ---------offer-section-one ends------ */
+ /* -------footer-section------------ */
+ .footer-section-child{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+.footer-section{
+    padding: 30px 0;
+}
+.footer-one{
+    width: 100%;
+}
+.footer-one p{
+    font-size:30px ;
+    padding-bottom:13px;
+    color: #ffff;
+}
+#para{
+    font-size:15px;
+    color:#e7be9c;
+}
+.footer-one a i{
+    font-size: 17px;
+    margin-right:10px;
+    padding-bottom: 30px;
+}
+.footer-two p{
+font-size: 30px;
+padding-bottom:19px;
+color: #ffff;
+padding-top: 20px;
+}
+.footer-two li{
+    padding:3px 0px;
+    font-size: 14px;
+}
+ /* -------footer-section ends------------ */
+   /* ------------discount- section----------- */
+.discount-section{
+    padding: 30px 0 0 0;
+    width: 100%;
+}
+.discount-text-section h3{
+font-size: 50px;
+transform: translate(60px, 10px);
+}
+.discount-text-section h4{
+    font-size: 20px;
+    transform: translate(61px, 0px);
+}
+.discount-text-section h5{
+font-size: 30px;
+transform: translate(59px,-3px);
+}
+.discount-logo-section figure img{
+    padding: 0px 0px;
+    height: 40%;
+    width: 100%;
+}
+/* ------------discount- section ends----------- */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* ------------------------banner section----------------- */
+    .banner-section-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-section-child p{
+        width: 100%;
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+    .banner-section-child img{
+        height: 20%;
+        width: 20%;
+        object-fit: cover;
+        
+    }
+    .banner-section-child h1 {
+        font-size: 70px;
+        padding-bottom: 50px;
+   
+    }
+    .banner-section{
+        height: 480px;
+    }
+    .button{
+        padding: 10px 60px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+/* ------------------------banner section ends----------------- */
+/* ------------------banner-section-one--- */
+.banner-section-one{
+    padding: 70px 0;
+}
+.banner-section-one h2{
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+.banner-section-one p{
+    font-size: 18px;
+    padding: 0 0 15px 0;
+}
+/* ---------banner-section-one--- */
+/* -----------------cover-section ---------------- */
+.cover-section{
+    height: 200px;
+}
+/* ------------cover-section ends--------------- */
+/* --------about-section---------- */
+.logo-section img{
+    height: 80%;
+    width: 80%;
+    padding-left: 100px;
+}
+.about-info-section h3{
+    font-size: 25px;
+}
+.about-info-section p{
+    font-size: 18px;
+}
+.button{
+    padding: 13px 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* --------about-section ends---------- */
+/* ------------offer section------- */
+.right img{
+    height: 60%;
+    width: 80%;
+ }
+ .left h3{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.left p{
+    font-size: 10px;
+    padding-bottom:20px;
+    width: 80%;
+}
+.left .active{
+    padding: 10px 25px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.offer-section{
+    padding: 50px 0px 50px 0px;
+}
+/* ------------offer section ends------- */
+/* --------cover section one------- */
+.cover-section-one{
+    padding: 60px 0px 60px 0px;
+
+}
+.cover-section-one img{
+    height: 13%;
+    width: 13%;
+    padding-bottom: 50px;
+}
+.cover-section-one h3{
+   font-size: 20px;
+   padding-bottom: 40px;
+}
+.cover-section-one p{
+    font-size: 25px;
+    font-weight: 500;
+ }
+/* --------cover section one ends------- */
+/* ---------offer-section-one------ */
+.offer-section-one{
+    padding: 70px 0px;
+}
+.offer-section-one h3{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.offer-section-one p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+#box{
+    padding: 20px 250px 20px 0;
+}
+#box::placeholder{
+    font-size: 14px;  
+}
+.offer-section-one .button {
+    padding: 18px 50px;
+    font-size: 15px;
+    font-weight:600;
+    transform: translate(-170px,0px);
+}
+ /* ---------offer-section-one ends------ */
+/* -------footer-section------------ */
+.footer-section{
+    padding: 40px 40px;
+}
+.footer-one{
+    width: 20%;
+}
+.footer-one p{
+    font-size:14px ;
+    padding-bottom:16px;
+}
+#para{
+    font-size:10px;
+}
+.footer-one a i{
+    font-size: 12px;
+    margin-right:1px;
+}
+.footer-two p{
+font-size: 14px;
+padding-bottom:16px;
+}
+.footer-two li{
+    padding:3px 0;
+    font-size: 10px;
+}
+ /* -------footer-section ends------------ */
+  /* ------------discount- section----------- */
+.discount-section{
+    padding: 40px 0 0 0;
+}
+.discount-text-section h3{
+font-size: 60px;
+transform: translate(100px, 10px);
+}
+.discount-text-section h4{
+    font-size: 30px;
+    transform: translate(100px, -10px);
+}
+.discount-text-section h5{
+font-size: 40px;
+transform: translate(95px,-20px);
+}
+.discount-logo-section figure img{
+    padding: 0px 10px;
+    height: 60%;
+    width: 100%;
+}
+/* ------------discount- section ends----------- */
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* ------------------------banner section----------------- */
+.banner-section-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.banner-section-child p{
+     width: 100%;
+    font-size: 20px;
+}
+.banner-section-child img{
+    height: 20%;
+    width: 20%;
+    object-fit: cover;
+}
+.banner-section-child h1 {
+    font-size: 100px;
+}
+.banner-section{
+    height: 680px;
+}
+.button{
+    padding: 16px 80px;
+    border-radius: 41px;
+    border: 1px solid #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* -------banner section ends----------------- */
+
+/* --------about-section---------- */
+.logo-section img{
+    height: 80%;
+    width: 80%;
+}
+.about-info-section h3{
+    font-size: 35px;
+}
+.about-info-section p{
+    font-size: 20px;
+}
+.button{
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+/* --------about-section ends---------- */
+/* ------------offer section------- */
+.right img{
+    height: 70%;
+    width: 90%;
+ }
+ .left h3{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.left p{
+    font-size: 16px;
+    padding-bottom:20px;
+    width: 80%;
+}
+.left .active{
+    padding: 13px 35px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.offer-section{
+    padding: 50px 0px 50px 0px;
+}
+/* ------------offer section ends------- */
+/* --------cover section one------- */
+.cover-section-one{
+    padding: 80px 0px 80px 0px;
+}
+.cover-section-one img{
+    height: 15%;
+    width: 15%;
+    padding-bottom: 70px;
+}
+.cover-section-one h3{
+   font-size: 30px;
+   padding-bottom: 60px;
+}
+.cover-section-one p{
+    font-size: 35px;
+    font-weight: 500;
+ }
+ /* --------cover section one ends------- */
+ /* ---------offer-section-one------ */
+ .offer-section-one{
+    padding: 100px 0px;
+}
+.offer-section-one h3{
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+.offer-section-one p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#box{
+    padding: 25px 450px 25px 0;
+}
+#box::placeholder{
+    font-size: 20px;  
+}
+.offer-section-one .button {
+    padding: 20px 50px;
+    border-radius: 41px;
+    font-size: 21px;
+    font-weight:600;
+    transform: translate(-190px,0px);
+}
+/* ---------offer-section-one ends------ */
+/* -------footer-section------------ */
+.footer-section{
+    padding: 50px 95px 50px 95px;
+}
+.footer-one{
+    width: 20%;
+}
+.footer-one p{
+    font-size:18px ;
+    padding-bottom:20px;
+}
+#para{
+    font-size:13px;
+}
+.footer-one a i{
+    font-size: 18px;
+    margin-right:1px;
+    font-size: 19px;
+}
+.footer-two p{
+font-size: 19px;
+padding-bottom:20px;
+}
+.footer-two li{
+    padding:3px 0;
+    font-size: 13px;
+}
+ /* -------footer-section ends------------ */
+ /* ------------discount- section----------- */
+.discount-section{
+    padding: 40px 0 0 0;
+}
+.discount-text-section h3{
+font-size: 70px;
+transform: translate(100px, 10px);
+}
+.discount-text-section h4{
+    font-size: 40px;
+    transform: translate(100px, -10px);
+}
+.discount-text-section h5{
+font-size: 50px;
+transform: translate(95px,-20px);
+}
+.discount-logo-section figure img{
+    padding: 0px 15px;
+    height: 90%;
+    width: 100%;
+}
+/* ------------discount- section ends----------- */
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* --------about-section---------- */
+    .logo-section img{
+        height: 90%;
+        width: 90%;
+        padding-left: 70px;
+    }
+    .about-info-section h3{
+        font-size: 55px;
+    }
+    .about-info-section p{
+        font-size: 22px;
+        }
+        .button{
+            padding: 20px 60px;
+            font-size: 20px;
+            font-weight: 600;
+        
+        }
+    /* --------logo-section ends---------- */
+/* ------------offer section------- */
+ .right img{
+    height: 90%;
+    width: 100%;
+ }
+ .left h3{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.left p{
+    font-size: 16px;
+    padding-bottom:40px;
+    width: 80%;
+}
+.active{
+    padding: 16px 55px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.offer-section{
+    padding: 80px 0px 80px 0px;}
+/* ------------offer section ends------- */
+/* ---------offer-section-one------ */
+.offer-section-one{
+    padding: 150px 0px;
+}
+.offer-section-one h3{
+    font-size: 65px;
+    padding-bottom: 60px;
+}
+.offer-section-one p{
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+#box{
+    padding: 25px 500px 25px 0;
+}
+#box::placeholder{
+    font-size: 25px;  
+}
+.offer-section-one .button {
+    padding: 17px 60px;
+    font-size: 25px;
+    font-weight:600;
+    transform: translate(-190px,0px);
+}
+ /* ---------offer-section-one ends------ */
+ /* -------footer-section------------ */
+.footer-section{
+    padding: 70px 95px 70px 95px;
+}
+.footer-one{
+    width: 25%;
+}
+.footer-one p{
+    font-size:24px ;
+    padding-bottom:27px;
+}
+#para{
+    font-size:17px;
+}
+.footer-one a i{
+    font-size: 24px;
+    margin-right:2px;
+    font-size: 25px;
+}
+.footer-two p{
+font-size: 25px;
+padding-bottom:28px;
+}
+.footer-two li{
+    padding:5px 0;
+    font-size: 17px;
+}
+ /* -------footer-section ends------------ */
+/* ------------discount- section----------- */
+.discount-section{
+    padding: 49px 0 0 0;
+}
+.discount-text-section h3{
+font-size: 100px;
+transform: translate(150px, -10px);
+}
+.discount-text-section h4{
+    font-size: 50px;
+    transform: translate(150px, -30px);
+}
+.discount-text-section h5{
+font-size: 80px;
+transform: translate(145px,-50px);
+}
+.discount-logo-section figure img{
+    padding-left: 300px;
+    height: 100%;
+    width: 100%;
+}
+/* ------------discount- section ends----------- */
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+/* ------------offer section------- */
+   .left h3{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.left p{
+    font-size: 20px;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.left .active{
+    padding: 18px 65px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.offer-section{
+    padding: 100px 0px 100px 0px;  
+}
+/* ------------offer section ends------- */
+
+ }
